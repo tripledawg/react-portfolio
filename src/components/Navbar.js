@@ -33,16 +33,13 @@ function Navbar() {
       }}
     >
       <div style={linkStyle}>
-        <a href="#">Home</a>
+        <a href="#">About Me</a>
       </div>
       <div style={linkStyle}>
-        <a href="#">Login</a>
+        <a href="#">Work</a>
       </div>
       <div style={linkStyle}>
-        <a href="#">Register</a>
-      </div>
-      <div style={linkStyle}>
-        <a href="#">About</a>
+        <a href="#">Resume</a>
       </div>
       <div style={linkStyle}>
         <a href="#">Contact</a>

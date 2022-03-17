@@ -13,9 +13,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
+       <Navbar />
       <Header />
       <Greeting />
-      <Navbar />
       <Project />
       <Card />
       <Card />
