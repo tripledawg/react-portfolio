@@ -4,22 +4,26 @@ import './App.css';
 import React from 'react';
 // components
 import Project from './components/Project';
-import Greeting from './components/Greeting';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Card from './components/Card';
 import Footer from './components/Footer';
+import AboutMe from './components/AboutMe';
+import Work from './components/Work';
+import Contact from './components/Contact'
 
 function App() {
   return (
     <div>
        <Navbar />
       <Header />
-      <Greeting />
+      <AboutMe />
+      <Work />
       <Project />
       <Card />
       <Card />
       <Footer />
+      <Contact />
     </div>
   );
 }

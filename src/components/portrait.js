@@ -1,16 +1,24 @@
 // First we import `useState` with React so that we can take advantage of the hook
-import React, { useState } from 'react';
+import React from 'react';
 import portrait from './images/selfie1mb.png'
 
-export default function Greeting() {
-  // To set a state variable using `useState`, we give our variable a name of `greeting` and a function to update it.
-  // We also provide an initial value
-  const [greeting, setGreeting] = useState('Welcome!');
-
+const styles = {
+  float: 'left',
+  width: '15%',
+  'border-radius': '1%',
+};
+function Portrait()
   return (
-    <div className="card text-center">
+    <div className="About-me">
       <div className="card-header bg-primary text-white">
-      <img src={portrait} alt="photo of Leslie" />;
+        {/* <section
+        style={{
+          float: left,
+          width: 15%;
+          border-radius: 1%
+        }}></section> why won't this work??? */}
+      <img src={portrait} alt="photo of Leslie" />
+    
                 <p id="bio">A twenty year veteran of public libraries and public schools, my number one signature
                     strength is a love of learning. While pursuing a PhD in English education from The University of
                     Georgia, I developed a love for philosophy. Following our move to Florida in 2019 I began writing a
@@ -34,4 +42,4 @@ export default function Greeting() {
       </div>
     </div>
   );
-}
+export default Portrait;
