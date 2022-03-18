@@ -16,7 +16,7 @@ function Navbar() {
       }}
 >
       <div style={linkStyle}>
-        <a href="#">About Me</a>
+        <a href="#about-me">About Me</a>
       </div>
       <div style={linkStyle}>
         <a href="#">Work</a>
@@ -25,7 +25,7 @@ function Navbar() {
         <a href="#">Resume</a>
       </div>
       <div style={linkStyle}>
-        <a href="#">Contact</a>
+        <a href="#contact">Contacts</a>
       </div>
     </section>
   </nav>

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import portrait from './images/selfie1mb.png'
+import portrait from '../assets/images/selfie1mb.png'
 
 const portraitStyles = {
   float: 'left',
@@ -13,7 +13,7 @@ const aboutMeStyle = {
 }
 function AboutMe(){
   return (
-    <div className="About-me">
+    <div id="about-me" className="About-me">
       <div className="card-header bg-primary text-white">
       <img src={portrait} style = {portraitStyles} alt="photo of Leslie" />
     <h2>About Me</h2>

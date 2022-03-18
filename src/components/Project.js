@@ -1,8 +1,8 @@
 import React from 'react';
 
-import wordlepic from './images/twordlescreenshot2.png';
-import DAMpic from './images/dinner-and-a-movie-1280x738.png';
-import weatherpic from './images/weather-dashboard-screenshot-800x555.png'
+import wordlepic from '../assets/images/twordlescreenshot2.png';
+import DAMpic from '../assets/images/dinner-and-a-movie-1280x738.png';
+import weatherpic from '../assets/images/weather-dashboard-screenshot-800x555.png'
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case
 const styles = {
