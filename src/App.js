@@ -6,7 +6,7 @@ import React from 'react';
 import Project from './components/Project';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Card from './components/Card';
+import Homework from './components/Homework';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
 import Work from './components/Work';
@@ -20,8 +20,7 @@ function App() {
       <AboutMe />
       <Work />
       <Project />
-      <Card />
-      <Card />
+      <Homework />
       <Footer />
       <Contact />
     </div>

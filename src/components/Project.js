@@ -37,12 +37,13 @@ function Project() {
     <div style={styles.projectCard}>
       <a href="https://twordle2.herokuapp.com/">
         <img src={wordlepic} alt="Wordle 2 app" /></a>
+        <a href="https://github.com/hak9292/Wordle2">
+        <h3>Twordle Repository</h3> 
+      </a>
       <a href="https://hak9292.github.io/dinner-and-a-movie/">
         <img src={DAMpic} alt="Dinner and a Movie" /></a>
-      <div style={styles.heading}><h3>Dinner and a Movie Repository</h3></div>
       <a href="https://github.com/hak9292/dinner-and-a-movie">
-        <h3>Dinner and a Movie Repository</h3>
-        <p>JS and Server-Side APIs</p>
+        <h3>Dinner and a Movie Repository</h3> 
       </a>
       <div style={styles.content}>
         `JS and Server-Side APIs`
@@ -50,6 +51,7 @@ function Project() {
     </div>
   );
 }
+
 
 // export default Card;
 
