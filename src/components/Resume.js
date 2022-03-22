@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
   return (
-    <footer className="resume">
+    <footer id="resume" className="resume">
       <h1>Resume goes here</h1>
     </footer>
   );

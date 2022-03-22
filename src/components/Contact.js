@@ -12,8 +12,8 @@ function Contact() {
                         </li>
                         <li>
                             <a href="https://github.com/tripledawg">GitHub</a>
-                        </li>
-        <a href = {resume} >Resume</a>
+                        </li >
+        <a id="resume" href = {resume} >Resume</a>
         <li>
                             <a href="https://www.linkedin.com/in/leslie-crouch-a6974214a">LinkedIn</a>
                         </li>

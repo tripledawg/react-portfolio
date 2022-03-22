@@ -19,10 +19,10 @@ function Navbar() {
         <a href="#about-me">About Me</a>
       </div>
       <div style={linkStyle}>
-        <a href="#">Work</a>
+        <a href="#work">Work</a>
       </div>
       <div style={linkStyle}>
-        <a href="#">Resume</a>
+        <a href="#resume">Resume</a>
       </div>
       <div style={linkStyle}>
         <a href="#contact">Contacts</a>
