@@ -3,7 +3,7 @@ import './App.css';
 
 import React from 'react';
 // components
-import Project from './components/Project';
+import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Homework from './components/Homework';
@@ -19,9 +19,8 @@ function App() {
       <Header />
       <AboutMe />
       <Work />
-      <Project />
+      <Projects />
       <Homework />
-      <Footer />
       <Contact />
     </div>
   );
