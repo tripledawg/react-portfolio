@@ -1,3 +1,15 @@
+:root {
+    --mintcream: #f4fff8;
+    --darkliver: #4d4847;
+    --outerspacecrayola: #1c3738;
+    --pewterblue: #8baaad;
+    --darkgreenblack: #000f08;
+    --green: #539987;
+}
+
+* {
+    box-sizing: border-box;
+}
 .nav-links a {
     color: white;
     background-color: var(--outerspacecrayola);
@@ -37,7 +49,7 @@
         list-style-type: none;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     
     .contact-links ul li {

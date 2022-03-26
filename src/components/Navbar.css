@@ -1,3 +1,15 @@
+:root {
+    --mintcream: #f4fff8;
+    --darkliver: #4d4847;
+    --outerspacecrayola: #1c3738;
+    --pewterblue: #8baaad;
+    --darkgreenblack: #000f08;
+    --green: #539987;
+}
+* {
+    box-sizing: border-box;
+}
+
 .nav-links {
     display: flex;
     float: right;

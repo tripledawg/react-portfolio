@@ -1,3 +1,34 @@
+:root {
+    --mintcream: #f4fff8;
+    --darkliver: #4d4847;
+    --outerspacecrayola: #1c3738;
+    --pewterblue: #8baaad;
+    --darkgreenblack: #000f08;
+    --green: #539987;
+}
+
+* {
+    box-sizing: border-box;
+}
+.homework-card {
+    margin: 10px;
+    max-width: 49%;
+}
+
+.homework-card div {
+    text-decoration: none;
+    color: white
+}
+.homework-card div h3 {
+    text-decoration: none;
+    color: white
+}
+
+
+
+
+
+
 @media screen and (max-width: 980px) {
     .header {
         flex-direction: column;
@@ -35,3 +66,5 @@
     }
 
 }
+
+

@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer>
-    <p>Updated January, 2022</p>
+    <p>Updated March 2022</p>
 </footer>
   );
 }
