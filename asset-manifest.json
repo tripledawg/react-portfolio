@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.a27f5907.css",
+    "main.js": "/my-app/static/js/main.edd0c364.js",
+    "static/js/787.a2cb61a6.chunk.js": "/my-app/static/js/787.a2cb61a6.chunk.js",
+    "static/media/twordlescreenshot2.png": "/my-app/static/media/twordlescreenshot2.5396bbbe2ff2950b8c48.png",
+    "static/media/selfie1mb.png": "/my-app/static/media/selfie1mb.bea6b629b57b9f190a25.png",
+    "static/media/dinner-and-a-movie-1280x738.png": "/my-app/static/media/dinner-and-a-movie-1280x738.6998229d9f575663d17f.png",
+    "static/media/weather-dashboard-screenshot-800x555.png": "/my-app/static/media/weather-dashboard-screenshot-800x555.4b2018f90ba8db66cb2b.png",
+    "static/media/tech-blog-screenshot.png": "/my-app/static/media/tech-blog-screenshot.fc34c1813295fa076f55.png",
+    "static/media/Leslie_Crouch_Resume_2022.pdf": "/my-app/static/media/Leslie_Crouch_Resume_2022.e07225a89d2d7e58a0fd.pdf",
+    "static/media/work-day-planner-screenshot 640x640.png": "/my-app/static/media/work-day-planner-screenshot 640x640.d9323a053708eca111ab.png",
+    "index.html": "/my-app/index.html",
+    "main.a27f5907.css.map": "/my-app/static/css/main.a27f5907.css.map",
+    "main.edd0c364.js.map": "/my-app/static/js/main.edd0c364.js.map",
+    "787.a2cb61a6.chunk.js.map": "/my-app/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a27f5907.css",
+    "static/js/main.edd0c364.js"
+  ]
+}
