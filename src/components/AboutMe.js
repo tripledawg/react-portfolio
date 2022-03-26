@@ -1,24 +1,16 @@
 
 import React from 'react';
 import portrait from '../assets/images/selfie1mb.png'
+import './AboutMe.css';
 
-const portraitStyles = {
-  float: 'left',
-  width: '15%',
-  'border-radius': '1%',
-};
-
-const aboutMeStyle = {
-
-}
 function AboutMe(){
   return (
-    <div id="about-me" className="About-me">
-      <div className="card-header bg-primary text-white">
-      <img src={portrait} style = {portraitStyles} alt="photo of Leslie" />
-    <h2>About Me</h2>
-                <p id="bio">A twenty year veteran of public libraries and public schools, my number one signature
-                    strength is a love of learning. While pursuing a PhD in English education from The University of
+    <section className="row" id="about-me">
+<h2>About Me</h2>
+<div className="container">
+  <img class="photo" src={portrait} alt="photo of Leslie" />
+  <p>A twenty year veteran of public libraries and public schools, my number one signature
+                  strength is a love of learning. While pursuing a PhD in English education from The University of
                     Georgia, I developed a love for philosophy. Following our move to Florida in 2019 I began writing a
                     book about how to use psychological and philosophical approaches to navigate the unique challenges
                     of modernity. I have a
@@ -32,8 +24,8 @@ function AboutMe(){
                     bought a 1960's home located on the "Space Coast", and as part renovations I built and
                     tiled both showers from the floor up.
                 </p>
-      </div>
-    </div>
+</div>
+    </section>
   );
 }
   

@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--darkgreenblack);
+    background-color: var(--pewterblue);
+    padding: 20px 20px 20px 0;
+}
+
+.header h1 {
+    padding-left: 40px;
+} 
+
+.header-my-name {
+    color: var(--independence);
+    padding: 5px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+@media screen and (max-width: 980px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: row;
+    }
+    .project-card {
+        max-width: 100%;
+        aspect-ratio: 2;
+    }
+    .homework-card {
+        max-width: 100%;
+        aspect-ratio: 2.5;
+    }
+}
+
+@media screen and (max-width: 600 px) {
+
+    .row h2 {
+        min-width: 20%;
+        font-size: smaller;
+    }
+    .project-title {
+        font-size: smaller;
+    }
+
+    .contact-links a {
+        font-size: smaller;
+    }
+
+}

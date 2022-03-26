@@ -1,0 +1,70 @@
+.nav-links {
+    display: flex;
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: white;
+    background-color: var(--outerspacecrayola);
+    text-decoration: none;
+}
+
+/*pseudo classes for hover*/
+.nav-links a:hover {
+    color: var(--mintcream);
+    text-decoration: underline;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    float: right; 
+    background-color: var(--outerspacecrayola);
+}
+
+.nav-links ul li {
+    margin: 7px; 
+    display: inline-block;
+    background-color: var(--outerspacecrayola);
+}
+
+@media screen and (max-width: 980px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: row;
+    }
+    .project-card {
+        max-width: 100%;
+        aspect-ratio: 2;
+    }
+    .homework-card {
+        max-width: 100%;
+        aspect-ratio: 2.5;
+    }
+}
+
+@media screen and (max-width: 600 px) {
+
+    .row h2 {
+        min-width: 20%;
+        font-size: smaller;
+    }
+    .project-title {
+        font-size: smaller;
+    }
+
+    .contact-links a {
+        font-size: smaller;
+    }
+
+}

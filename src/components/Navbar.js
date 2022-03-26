@@ -1,33 +1,23 @@
 import React from 'react';
-
-const linkStyle = { border: '1px black', padding: '5px' };
+import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav className="main-header-menu">
-    <section
-      style={{
-        float: 'right',
-        display: 'flex',
-        fontFamily: 'helvetica',
-        flexDirection: 'row',
-        alignItems: 'flex-start',
-        justifyContent: 'flex-start',
-      }}
->
-      <div style={linkStyle}>
-        <a href="#about-me">About Me</a>
-      </div>
-      <div style={linkStyle}>
-        <a href="#work">Work</a>
-      </div>
-      <div style={linkStyle}>
-        <a href="#resume">Resume</a>
-      </div>
-      <div style={linkStyle}>
-        <a href="#contact">Contacts</a>
-      </div>
-    </section>
+    <nav className="nav-links">
+        <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+            </ul>
   </nav>
   );
 };

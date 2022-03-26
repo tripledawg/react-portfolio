@@ -15,7 +15,7 @@ const styles = {
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
-    color: 'white',
+    color: 'purple',
     padding: '0 20px',
   },
   content: {
@@ -27,11 +27,11 @@ function Homework() {
     // <a href="https://hak9292.github.io/dinner-and-a-movie/">
     //                         <img src="assets/images/dinner-and-movie807x403.png" alt="dinner and a movie app"
     //                             class="project-image" />
-    <div style={styles.projectCard}>
+    <div className="container" style={styles.card}>
       <a href="https://tech-blog-feb-2022.herokuapp.com/">
         <img src={techBlogpic} alt="tech blog app" /></a>
         <a href="https://github.com/tripledawg/tech-blog-using-MVC-and-Handlebars">
-        <h3>Tech Blog Repository</h3> 
+        <h3 style={styles.heading}>Tech Blog Repository</h3> 
       </a>
       <div style={styles.content}>
         `MVC and Handlebars`

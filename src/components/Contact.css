@@ -1,0 +1,97 @@
+.nav-links a {
+    color: white;
+    background-color: var(--outerspacecrayola);
+    text-decoration: none;
+}
+
+/*pseudo classes for hover*/
+.nav-links a:hover {
+    color: var(--mintcream);
+    text-decoration: underline;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    float: right; 
+    background-color: var(--outerspacecrayola);
+}
+
+.nav-links ul li {
+    margin: 7px; 
+    display: inline-block;
+    background-color: var(--outerspacecrayola);
+}
+
+.row {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    margin: 25px 0%; 
+}
+.container {
+    flex: 0 0 75%;
+    margin-left: 2%
+    }
+
+    .contact-links ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .contact-links ul li {
+        margin: 10px; 
+        padding: 2%; 
+        display: inline-block;
+    }
+    
+    .contact-links a {
+        font-size: 18px;
+        color: var(--darkgreenblack);
+        text-decoration: none;
+    }
+    
+    /*psuedo class for hover*/
+    .contact-links a:hover {
+        color: var(--darkliver);
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 980px) {
+        .header {
+            flex-direction: column;
+            text-align: center;
+        }
+        .nav-links {
+            flex-direction: column;
+            text-align: center;
+        }
+        .nav-links {
+            flex-direction: row;
+        }
+        .project-card {
+            max-width: 100%;
+            aspect-ratio: 2;
+        }
+        .homework-card {
+            max-width: 100%;
+            aspect-ratio: 2.5;
+        }
+    }
+    
+    @media screen and (max-width: 600 px) {
+    
+        .row h2 {
+            min-width: 20%;
+            font-size: smaller;
+        }
+        .project-title {
+            font-size: smaller;
+        }
+    
+        .contact-links a {
+            font-size: smaller;
+        }
+    
+    }
