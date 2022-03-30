@@ -1,0 +1,174 @@
+:root {
+    --mintcream: #f4fff8;
+    --darkliver: #4d4847;
+    --outerspacecrayola: #1c3738;
+    --pewterblue: #8baaad;
+    --darkgreenblack: #000f08;
+    --green: #539987;
+}
+* {
+    box-sizing: border-box;
+}
+#work {
+    flex-direction: row; 
+}
+
+.project-image {
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    margin: 10 px
+
+}
+
+.homework-image {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.homework-card {
+    margin: 10px;
+    max-width: 49%;
+}
+
+.homework-card div {
+    text-decoration: none;
+    color: white
+}
+.homework-card div h3 {
+    text-decoration: none;
+    color: white
+}
+
+.projects {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+}
+
+.projects p {
+    color: white;
+}
+.project-card, .homework-card {
+    position: relative; 
+    text-align: center;
+    border: 5px solid var(--pewterblue);
+    text-align: left;
+    margin: 2px;
+    opacity: .85;
+    /* max-height: 600px;
+    max-width: 600px; */
+   
+}
+
+.project-title {
+    position: absolute;
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+    font-size: 12px;
+    bottom: 20px;
+    background-color: var(--outerspacecrayola);
+    color: var(--mintcream);
+    border-style: solid;
+    border-color: mintcream;
+    text-align: left;
+    padding: 2%
+}
+/*pseudo classes for hover*/
+.project-card:hover, .homework-card:hover {
+    opacity: 1; 
+    border-color: var(--darkgreenblack);
+}
+.project-title:hover {
+    border-style: solid;
+    border-radius: 2px;;
+    border-color: var( --green);
+    /* color: var(--mintcream);
+    text-decoration: underline; */
+}
+
+.project-card {
+    margin: 10px;
+    max-width: 100%;
+}
+
+.project-card div {
+    text-decoration: none;
+    color: white;
+}
+.project-card div h3{
+    text-decoration: none;
+    color: white;
+}
+
+
+p {
+    color: var(--darkgreenblack);
+}
+
+.row {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    margin: 25px 0%; 
+}
+
+.row h2 {
+    border-right: 5px solid var(--darkgreenblack);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: right;
+    flex: 0 0 20%; 
+    padding: 1%;
+    margin: 2px; 
+    color: var(--darkliver);
+    font-size: 22px;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.container {
+flex: 0 0 75%;
+margin-left: 2%
+}
+
+
+@media screen and (max-width: 980px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: row;
+    }
+    .project-card {
+        max-width: 100%;
+        aspect-ratio: 2;
+    }
+    .homework-card {
+        max-width: 100%;
+        aspect-ratio: 2.5;
+    }
+}
+
+@media screen and (max-width: 600 px) {
+
+    .row h2 {
+        min-width: 20%;
+        font-size: smaller;
+    }
+    .project-title {
+        font-size: smaller;
+    }
+
+    .contact-links a {
+        font-size: smaller;
+    }
+
+}
